@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9ecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .error-container {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    padding: 20px 30px;
+    max-width: 400px;
+  }
+  
+  .error-container .icon img {
+    width: 80px;
+    height: 80px;
+  }
+  
+  .error-container h1 {
+    color: #d9534f;
+    font-size: 24px;
+    margin: 20px 0 10px;
+  }
+  
+  .error-container p {
+    color: #555;
+    font-size: 16px;
+    margin: 10px 0 20px;
+  }
+  
+  .error-container .button {
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    margin: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .error-container .button.try-again {
+    background-color: #f0ad4e;
+    color: white;
+  }
+  
+  .error-container .button.try-again:hover {
+    background-color: #ec971f;
+  }
+  
+  .error-container .button.contact-support {
+    background-color: #d9534f;
+    color: white;
+  }
+  
+  .error-container .button.contact-support:hover {
+    background-color: #c9302c;
+  }
+  
